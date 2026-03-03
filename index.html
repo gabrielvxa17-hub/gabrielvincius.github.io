@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Loja Tech do Gabriel</title>
+</head>
+<body>
+
+    <header>
+        <h1>Loja Tech do Gabriel 🛒</h1>
+        <p>Os melhores produtos gamers</p>
+    </header>
+
+    <div class="container">
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Teclado Gamer">
+            <h2>Teclado Gamer RGB</h2>
+            <p class="preco">R$ 199,90</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Mouse Gamer">
+            <h2>Mouse Gamer Pro</h2>
+            <p class="preco">R$ 129,90</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Headset Gamer">
+            <h2>Headset Gamer 7.1</h2>
+            <p class="preco">R$ 249,90</p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+
+    </div>
+
+    <p id="mensagem"></p>
+
+    <script>
+        function comprar() {
+            document.getElementById("mensagem").innerText = "Produto adicionado ao carrinho 🛒";
+        }
+    </script>
+
+</body>
+</html>
+: body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #0a0a0a;
+    padding: 20px;
+}
+
+h1 {
+    color: lime;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.produto {
+    background-color: #1c1c1c;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.preco {
+    color: lime;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background-color: lime;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    color: cyan;
