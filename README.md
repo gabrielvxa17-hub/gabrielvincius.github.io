@@ -153,7 +153,7 @@ margin-top: 20px;
 
 <div class="card">
 <h2>Imagem do Jogo</h2>
-<img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png alt="Minecraft">
+<img src=" https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png alt="Minecraft">
 </div>
 
 <footer>
