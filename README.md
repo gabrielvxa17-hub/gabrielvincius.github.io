@@ -143,7 +143,7 @@ margin-top: 20px;
 <h2>Sobre Mim</h2>
 <p><b>Nome:</b>Gabriel Vinicius Xavier de Araujo</p>
 <p><b>Matrícula:</b> 202611606</p>
-<p><b>Curso:</b> Engenharia de softwere</p>
+<p><b>Curso:</b>Engenharia de softwere</p>
 </div>
 
 <div class="card">
@@ -153,7 +153,7 @@ margin-top: 20px;
 
 <div class="card">
 <h2>Imagem do Jogo</h2>
-<img src=" https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png alt="Minecraft">
+<img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Minecraft">
 </div>
 
 <footer>
